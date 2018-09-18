@@ -1,0 +1,27 @@
+body {
+  background-color: cyan;
+}
+
+#quote-box {
+  width:750px;
+  height: 250px;
+  margin:50px auto 10px;
+  padding: 10px;
+  
+}
+
+#text {
+  width:700px;
+  height:100px;
+}
+
+#author {
+  text-align:right;
+}
+#tweet-quote{
+   
+}
+#div-tweet{
+  width:100px;
+  background-color:white;
+}
