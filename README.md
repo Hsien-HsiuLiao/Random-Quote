@@ -5,4 +5,5 @@
 ## How to use
 
 load randomquote.html into a web browser
+
 click on New Quote button to see a new random quote
