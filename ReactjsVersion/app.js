@@ -3,6 +3,7 @@ $(document).ready(function() {
 
 
   class RandomQuote extends React.Component {
+    
     constructor(props) {
       super(props);
       this.state = {
@@ -13,7 +14,7 @@ $(document).ready(function() {
                 {quote:"Zen in it&#39;s essence is the art of seeing into the nature of one&#39;s being, and it points the way from bondage to freedom", author:"D.T.Suzuki"}]
       }
       this.newquote = this.newquote.bind(this);
-      } //end constructor
+      } 
     
     //define method
     newquote() {
@@ -21,7 +22,8 @@ $(document).ready(function() {
         randomIndex: Math.floor(Math.random() * 4)
       });  
       
-    }//end method
+    }
+    
     render() {
       
       /* const quote = quoteArray[this.state.randomIndex]
@@ -29,10 +31,10 @@ $(document).ready(function() {
       //const quote = quoteArray[this.state.randomIndex]
       
       //const quote = this.state.quoteArray[this.state.randomIndex];
-      //console.log("quote:"+quote);
+      
       const index = this.state.randomIndex;
       //const index = 0;
-      //console.log("index" +index);
+      
       
       return (
       <div>
@@ -59,11 +61,11 @@ $(document).ready(function() {
           
       </div>
      ); //end return
-    } // end render
-    }; // end class
+    } 
+    }; 
                   
    ReactDOM.render(<RandomQuote />, document.getElementById("quote-box"));
   //} 
   
  
-  }); // document ready
+  }); 
